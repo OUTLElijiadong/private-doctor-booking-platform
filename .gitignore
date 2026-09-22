@@ -1,0 +1,28 @@
+# Java
+target/
+*.class
+*.jar
+!.mvn/wrapper/*.jar
+
+# IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+
+# Node / 前端
+node_modules/
+dist/
+*.local
+
+# 日志与临时文件
+logs/
+*.log
+.DS_Store
+
+# 环境配置（含密码等敏感信息，按需放开）
+application-local.yml
+.env
